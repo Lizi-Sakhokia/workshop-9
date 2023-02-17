@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header ul{
+    display: flex;
+    justify-content:right;
+}
+header li{
+    margin: 85px;
+}
+header a{
+    padding: 24px 18px;
+    color: #000000;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+}
+header a:hover{
+    background-color: #79B331;
+}
+/* main{
+    display: flex;
+} */
+.slider{
+    width: 1440px;
+    height: 1024px;
+    background-image: url(../img/Rectangle\ 1.png);
+}
+.mart{
+    width: 450px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: wretriali 2s infinite;
+}
+@keyframes wretriali {
+    0%{top: 0; left: 0;}
+    25%{top: 0; left: 418px;}
+    50%{top: 168px; left: 418px;}
+    75%{top: 168px; left: 0;}
+    100%{top: 0; left: 0;}
+}
+
+.mart p{
+    margin: 30px;
+    margin-left: 50px;
+}
+.mart p span{
+    margin-left: 46px;
+    font-size: 26px;
+}
+.xe{
+    width: 1084px;
+    height: 500px;
+    margin-top: 140px;
+    position: relative;
+}
+.stick{
+    width: 1px;
+    height: 500px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+.toti{
+    position: absolute;
+    display: flex;
+}
+.text:hover{
+    color: #79B331;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 0 35px;
+    background-color: #C4C4C4;
+}
+.fotoli:hover{
+    background-color: #79B331;
+}
+.fotoli-right{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 0 35px;
+    background-color: #C4C4C4;
+    transform: rotate(90deg);
+}
+.fotoli-right:hover{
+    background-color: #79B331;
+}
+.toti1{
+    margin-left: 80px;
+}
+.toti2{
+    margin-top: 44px;
+    margin-left: 50%
+}
+.toti3{
+    margin-top: 148px;
+    margin-left: 20px;
+}
+.toti4{
+    margin-top: 254px;
+    margin-left: 50%
+}
